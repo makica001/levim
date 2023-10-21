@@ -3,8 +3,7 @@ name: Terraform Workflow
 on:
   push:
     branches:
-      ~ main
-      ~ s3-site-using-module
+      ~ s3-site
 
 jobs:
   s3-site-branch-job:
