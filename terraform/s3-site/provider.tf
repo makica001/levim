@@ -15,4 +15,11 @@ terraform {
       version = "~> 5.6.2"
     }
   }
+
+  backend "s3" {
+    bucket = "novi-bucket-m"
+    key = "terraform/s3-site"
+    region = "us-east-1"
+  }
 }
+
